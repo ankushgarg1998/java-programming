@@ -1,5 +1,7 @@
 package com.ankush;
 
+import com.ankush.Contact;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
