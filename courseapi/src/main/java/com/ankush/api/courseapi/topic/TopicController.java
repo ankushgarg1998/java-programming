@@ -35,4 +35,9 @@ public class TopicController {
     public void deleteTopic(@PathVariable String id) {
         topicService.deleteTopic(id);
     }
+
+    @RequestMapping("/javaTopics")
+    public List<Topic> temp() {
+        return topicService.tempFuncCaller();
+    }
 }

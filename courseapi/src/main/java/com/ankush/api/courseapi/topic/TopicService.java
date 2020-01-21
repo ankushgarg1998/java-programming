@@ -34,4 +34,8 @@ public class TopicService {
     public void deleteTopic(String id) {
         topicRepository.deleteById(id);
     }
+
+    public List<Topic> tempFuncCaller() {
+        return topicRepository.tempFunc("java");
+    }
 }
